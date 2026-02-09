@@ -1,0 +1,15 @@
+a# macOS files
+.DS_Store
+# VSCode
+.vscode/
+__pycache__/
+
+# C / C++ build artifacts (user local)
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+# mac Finder metadata you really don’t want
+.fseventsd
