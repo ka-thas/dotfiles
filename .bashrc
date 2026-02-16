@@ -49,17 +49,25 @@ echo -e "${plain_green}Welcome back, ${plain_yellow}Ka${plain_reset}! 🌱"
 
 # --- Aliases ---
 
-alias os='/uio/hume/student-u22/kavint/Documents/semester-8/IN4000/repo'
-alias active='/uio/hume/student-u22/kavint/Documents/semester-8/'
+alias os='~/Desktop/semester-8/IN4000/repo'
+alias active='~/Desktop/semester-8/'
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
+
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
 alias g='git'
 alias gs='git status'
+alias gss='git status -s'
 alias gaa='git add .'
 alias gcmsg='git commit -m'
+alias gcam='git commit -am'
+alias gco='git checkout'
+alias gb='git branch'
+alias gba='git branch -a'
 alias gp='git push'
 alias gpl='git pull'
 alias gd='git diff'
