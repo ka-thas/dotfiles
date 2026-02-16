@@ -1,4 +1,4 @@
-# ~/.bashrc — Ka’s colorful setup 🌈
+# ~/.bashrc — Ka’s colorful setup
 
 # --- Source global definitions ---
 if [ -f /etc/bashrc ]; then
@@ -42,15 +42,18 @@ PS1="${BLUE}[\u${YELLOW}@${MAGENTA}\h ${GREEN}\w${CYAN}\$(branch=\$(parse_git_br
 
 # --- Greeting ---
 # Strip out the \[ \] so colors render properly
-plain_green="\e[0;32m"
-plain_yellow="\e[0;33m"
-plain_reset="\e[0m"
-echo -e "${plain_green}Welcome back, ${plain_yellow}Ka${plain_reset}! 🌱"
+
+if [[ $- == *i* ]]; then
+  plain_green="\e[0;32m"
+  plain_yellow="\e[0;33m"
+  plain_reset="\e[0m"
+  echo -e "${plain_green}Welcome back, ${plain_yellow}Ka${plain_reset}! 🌱"
+fi
 
 # --- Aliases ---
 
-alias os='/uio/hume/student-u22/kavint/Documents/semester-8/IN4000/repo'
-alias active='/uio/hume/student-u22/kavint/Documents/semester-8/'
+alias os='cd /uio/hume/student-u22/kavint/Documents/semester-8/IN4000/repo'
+alias active='cd /uio/hume/student-u22/kavint/Documents/semester-8/'
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
@@ -63,6 +66,8 @@ alias gcmsg='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
 alias gd='git diff'
+
+export MANPAGER="nvim +Man!"
 
 export PATH=$PATH:/hom/inf3151/tools/bin
 # Fix for bochs libreadline.so.6
