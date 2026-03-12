@@ -52,8 +52,8 @@ fi
 
 # --- Aliases ---
 
-alias os='~/Desktop/semester-8/IN4000/repo'
-alias active='~/Desktop/semester-8/'
+alias os='cd ~/Desktop/semester-8/IN4000/repo/P2/2_1_15510_15514/'
+alias active='cd ~/Desktop/semester-8/'
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
