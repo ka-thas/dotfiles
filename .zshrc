@@ -124,10 +124,10 @@ eval "$(pyenv init -)"
 
 
 # SSH Aliases
-alias ifi='ssh -J kavint@login.uio.no kavint@login.ifi.uio.no'
+alias ifi='ssh ifi'
 alias uio='ssh kavint@login.uio.no'
 alias ifi-adenin='ssh -J kavint@login.uio.no kavint@adenin.ifi.uio.no'
-alias ifi-sytosin='ssh -J kavint@login.uio.no kavint@sytosin.ifi.uio.no'
+alias ifi-sytosin='ssh sytosin'
 alias ifi-guanin='ssh -J kavint@login.uio.no kavint@guanin.ifi.uio.no'
 alias ifi-tymin='ssh -J kavint@login.uio.no kavint@tymin.ifi.uio.no'
 alias ifi-gimli='ssh -J kavint@login.uio.no kavint@gimli.ifi.uio.no'
@@ -140,7 +140,11 @@ alias robin-hpc='ssh kavint@hpc.robin.uiocloud.no'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias ls='eza --icons'
+alias l='eza --icons'
+alias la='eza -a --icons'
 alias active='cd ~/Desktop/Semester-8/'
+alias os='cd ~/Desktop/Semester-8/IN4000/repo/'
 alias grl='cd ~/Desktop/IN1160-V26/'
 alias fcode='code $(fzf)'  # Select and change to a directory
 alias fvim='nvim $(fzf)'  # Select and change to a directory
@@ -152,3 +156,5 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+. "$HOME/.local/bin/env"
