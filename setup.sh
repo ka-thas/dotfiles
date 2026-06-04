@@ -15,5 +15,6 @@ mkdir -p "$HOME/.config"
 
 # Symlink config directories
 ln -sf "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
+ln -sf "$DOTFILES_DIR/.config/fish" "$HOME/.config/fish"
 
 echo "Dotfiles linked successfully!"
