@@ -1,0 +1,14 @@
+[user]
+	name = Ka Thas
+	email = kavinthas@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[credential]
+	helper = osxkeychain # macOS only!
+[core]
+	editor = vim # for commit messages
+	excludesfile = ~/.gitignore_global
