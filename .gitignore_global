@@ -13,3 +13,7 @@ __pycache__/
 *.exe
 # mac Finder metadata you really don’t want
 .fseventsd
+
+AGENTS.md
+CLAUDE.md
+**/.claude/settings.local.json
