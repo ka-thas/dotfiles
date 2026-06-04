@@ -1,0 +1,1 @@
+/home/kathas/.config/omarchy/current/theme/neovim.lua
