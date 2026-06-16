@@ -10,6 +10,7 @@ Personal config files, symlinked into place via `setup.sh`.
 | `.zshrc` | `~/.zshrc` |
 | `.aerospace.toml` | `~/.aerospace.toml` |
 | `.config/fish/` | `~/.config/fish/` |
+| `.ssh/config` | `~/.ssh/config` |
 
 ## Setup on a new machine
 

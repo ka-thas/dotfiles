@@ -17,4 +17,8 @@ mkdir -p "$HOME/.config"
 ln -sf "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
 ln -sf "$DOTFILES_DIR/.config/fish" "$HOME/.config/fish"
 
+# Symlink just the SSH config file (never the whole ~/.ssh dir — keys stay local)
+mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+ln -sf "$DOTFILES_DIR/.ssh/config" "$HOME/.ssh/config"
+
 echo "Dotfiles linked successfully!"

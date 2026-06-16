@@ -48,9 +48,6 @@ alias la='eza -a --icons'
 alias active='cd ~/Desktop/Semester-8/'
 alias os='cd ~/Desktop/Semester-8/IN4000/repo/'
 alias grl='cd ~/Desktop/IN1160-V26/'
-alias fcode='code $(fzf)'
-alias fvim='nvim $(fzf)'
-alias obsidian='cd ~/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/'
 
 # ── p10k ──────────────────────────────────────────────────────
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
