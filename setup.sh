@@ -16,6 +16,8 @@ mkdir -p "$HOME/.config"
 # Symlink config directories
 ln -sf "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
 ln -sf "$DOTFILES_DIR/.config/fish" "$HOME/.config/fish"
+ln -sf "$DOTFILES_DIR/.config/iterm2" "$HOME/.config/iterm2"
+ln -sf "$DOTFILES_DIR/.config/raycast" "$HOME/.config/raycast"
 
 # Symlink just the SSH config file (never the whole ~/.ssh dir — keys stay local)
 mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
