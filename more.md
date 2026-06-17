@@ -1,0 +1,11 @@
+- [ ] brew
+- [ ] fish
+- [ ] zoxide
+- [ ] eza
+- [ ] vscode
+    - [ ] sign in
+- [ ] aerospace
+- [ ] nerd hack font
+- [ ] opencode
+
+- [ ] zen browser
