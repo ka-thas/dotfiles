@@ -138,7 +138,7 @@ on-mode-changed = []
     alt-6 = 'workspace 6'
     alt-7 = 'workspace 7'
     alt-8 = 'workspace 8'
-    alt-9 = 'workspace 9'¸
+    alt-9 = 'workspace 9'
 
     alt-b = 'workspace B' 
     alt-c = 'workspace C'
@@ -208,3 +208,9 @@ on-mode-changed = []
     alt-shift-j = ['join-with down', 'mode main']
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
+
+[[on-window-detected]]
+if.app-id="com.mitchellh.ghostty"
+run= [
+  "layout floating",
+]
