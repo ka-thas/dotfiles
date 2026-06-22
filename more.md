@@ -7,5 +7,8 @@
 - [ ] aerospace
 - [ ] nerd hack font
 - [ ] opencode
+- [ ] node
+- [ ] pnpm
+- [ ] dotnet
 
 - [ ] zen browser

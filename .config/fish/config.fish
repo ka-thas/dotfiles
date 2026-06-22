@@ -33,6 +33,7 @@ abbr -a gb   'git branch'
 abbr -a gc   'git commit'
 abbr -a gcam 'git commit -am'
 abbr -a gp   'git push'
+abbr -a gpf  'git push --force-with-lease'
 abbr -a gs   'git status'
 abbr -a gss  'git status --short'
 
@@ -50,3 +51,5 @@ abbr -a os     'cd ~/Documents/Semester-8/IN4000/repo/'
 abbr -a grl    'cd ~/Documents/IN1160-V26/'
 abbr -a vi     'nvim'
 abbr -a grep   'rg --color=auto'
+# opencode
+fish_add_path $HOME/.opencode/bin
