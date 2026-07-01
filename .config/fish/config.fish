@@ -53,3 +53,10 @@ abbr -a vi     'nvim'
 abbr -a grep   'rg --color=auto'
 # opencode
 fish_add_path $HOME/.opencode/bin
+
+# pnpm
+set -gx PNPM_HOME "/Users/kavin/Library/pnpm"
+if not string match -q -- "$PNPM_HOME/bin" $PATH
+  set -gx PATH "$PNPM_HOME/bin" $PATH
+end
+# pnpm end
