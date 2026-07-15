@@ -8,6 +8,7 @@ fish_add_path /usr/local/sbin
 fish_add_path $HOME/.cargo/bin
 fish_add_path /opt/homebrew/bin
 fish_add_path $HOME/.local/bin
+fish_add_path /usr/local/opt/libpq/bin
 
 # ── misc ──────────────────────────────────────────────────────
 set -x SDKROOT (xcrun --sdk macosx --show-sdk-path)
@@ -51,6 +52,11 @@ abbr -a os     'cd ~/Documents/Semester-8/IN4000/repo/'
 abbr -a grl    'cd ~/Documents/IN1160-V26/'
 abbr -a vi     'nvim'
 abbr -a grep   'rg --color=auto'
+abbr -a py     'python3'
+abbr -a python 'python3'
+abbr -a pip    'pip3'
+
+
 # opencode
 fish_add_path $HOME/.opencode/bin
 

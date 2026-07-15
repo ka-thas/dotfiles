@@ -51,3 +51,6 @@ alias grl='cd ~/Desktop/IN1160-V26/'
 
 # ── p10k ──────────────────────────────────────────────────────
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# libpq (psql client) — keg-only via Homebrew
+export PATH="/usr/local/opt/libpq/bin:$PATH"
