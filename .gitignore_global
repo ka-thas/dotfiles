@@ -13,3 +13,14 @@ __pycache__/
 *.exe
 # mac Finder metadata you really don’t want
 .fseventsd
+
+AGENTS.md
+CLAUDE.md
+**/.claude/settings.local.json
+
+# SSH: never commit private keys in any repo
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*.pem
