@@ -1,14 +1,20 @@
+Shell:
+- [ ] `xcode-select --install`
 - [ ] brew
+- [ ] dotfiles
 - [ ] fish
 - [ ] zoxide
 - [ ] eza
-- [ ] vscode
-    - [ ] sign in
-- [ ] aerospace
+- [ ] Zed
+- [ ] uv
+- [ ] ~~aerospace~~
 - [ ] nerd hack font
-- [ ] opencode
+- [ ] opencode / claude code
 - [ ] node
 - [ ] pnpm
 - [ ] dotnet
 
+Apps:
 - [ ] zen browser
+- [ ] zed ide
+- [ ] Notion
