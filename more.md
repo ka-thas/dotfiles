@@ -7,6 +7,8 @@ Shell:
 - [ ] eza
 - [ ] Zed
 - [ ] uv
+- [ ] fzf - fuzzy finder
+- [ ] rg  - ripgrep
 - [ ] ~~aerospace~~
 - [ ] nerd hack font
 - [ ] opencode / claude code
