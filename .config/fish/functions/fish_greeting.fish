@@ -14,7 +14,7 @@ function fish_greeting
         "화이팅!" \
         "( ´ ∀ `)ノ～ ♡" \
         "Necessity is the mother of invention"
-    echo -n (random choice $greetings)
+    echo (random choice $greetings)
 end
 
 # https://www.emoticonstext.com/
