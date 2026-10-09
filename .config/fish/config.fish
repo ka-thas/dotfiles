@@ -39,17 +39,15 @@ abbr -a gss  'git status --short'
 
 
 # ── local abbr ────────────────────────────────────────────────
-abbr -a ..     'cd ..'
-abbr -a ...    'cd ../..'
-abbr -a ....   'cd ../../..'
-abbr -a ls     'eza --icons'
-abbr -a l      'eza --icons'
-abbr -a la     'eza -a --icons'
-abbr -a cd     'z'
-abbr -a active 'cd ~/Documents/Semester-8/'
-abbr -a os     'cd ~/Documents/Semester-8/IN4000/repo/'
-abbr -a grl    'cd ~/Documents/IN1160-V26/'
-abbr -a vi     'nvim'
-abbr -a grep   'rg --color=auto'
+abbr -a ..        'cd ..'
+abbr -a ...       'cd ../..'
+abbr -a ....      'cd ../../..'
+abbr -a ls        'eza --icons'
+abbr -a l         'eza --icons'
+abbr -a la        'eza -a --icons'
+abbr -a cd        'z'
+abbr -a grep      'rg --color=auto'
+abbr -a aliases   'zed ~/.config/fish/config.fish'
+
 # opencode
 fish_add_path $HOME/.opencode/bin
