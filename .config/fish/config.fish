@@ -46,6 +46,7 @@ abbr -a lta    'eza --tree --level=2 --long --icons --git -a'
 abbr -a r      'rails'
 abbr -a vi     'nvim'
 abbr -a grep   'rg --color=auto'
+abbr -a aliases 'zeditor /home/ka/dotfiles/.config/fish/config.fish'
 
 # ── omarchy abbr (ported from /usr/share/omarchy/default/bash) ───
 abbr -a a          'omarchy-agent --inline'
