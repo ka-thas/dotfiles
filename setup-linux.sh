@@ -23,4 +23,13 @@ mkdir -p "$HOME/.config"
 # -n replaces an existing link instead of nesting a new one inside it
 ln -sfn "$DOTFILES_DIR/.config/fish" "$HOME/.config/fish"
 
+# Global gitignore at git's default path, so core.excludesFile isn't needed
+mkdir -p "$HOME/.config/git"
+ln -sfn "$DOTFILES_DIR/.gitignore_global" "$HOME/.config/git/ignore"
+
+# Link only the ssh config; keys and known_hosts stay local to this machine
+mkdir -p "$HOME/.ssh"
+chmod 700 "$HOME/.ssh"
+ln -sfn "$DOTFILES_DIR/.ssh/config" "$HOME/.ssh/config"
+
 echo "Dotfiles linked successfully!"
