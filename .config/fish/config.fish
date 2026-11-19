@@ -14,15 +14,11 @@ set -x SDKROOT (xcrun --sdk macosx --show-sdk-path)
 zoxide init fish --cmd cd | source
 
 # ── ssh abbr ──────────────────────────────────────────────────
+abbr -a kodama       'ssh ka@kodama'
+abbr -a blitzen      'ssh blitzen'
 abbr -a ifi          'ssh ifi'
-abbr -a uio          'ssh uio'
-abbr -a ifi-adenin   'ssh adenin'
-abbr -a ifi-sytosin  'ssh sytosin'
-abbr -a ifi-guanin   'ssh guanin'
-abbr -a ifi-tymin    'ssh tymin'
-abbr -a ifi-gimli    'ssh gimli'
-abbr -a ifi-galadriel 'ssh galadriel'
-abbr -a ifi-cupid    'ssh cupid'
+abbr -a uio          'ssh -fN uio'
+abbr -a fox          'ssh -fN fox'
 abbr -a robin-hpc    'ssh kavint@hpc.robin.uiocloud.no'
 
 # ── git abbr ──────────────────────────────────────────────────
@@ -48,6 +44,10 @@ abbr -a la        'eza -a --icons'
 abbr -a cd        'z'
 abbr -a grep      'rg --color=auto'
 abbr -a aliases   'zed ~/.config/fish/config.fish'
+abbr -a a         'claude'
 
 # opencode
 fish_add_path $HOME/.opencode/bin
+
+# ── theme ─────────────────────────────────────────────────────
+fish_config theme choose ayu-contrast

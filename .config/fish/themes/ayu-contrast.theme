@@ -1,0 +1,66 @@
+# name: ayu-contrast (Ayu with WCAG-contrast light colors)
+# url: https://github.com/dempfi/ayu
+
+[light]
+# preferred_background: FAFAFA
+fish_color_normal 50575E
+fish_color_autosuggestion 7E858E
+fish_color_cancel -r
+fish_color_command 267B98
+fish_color_comment 7E868F
+fish_color_cwd 1878BD
+fish_color_cwd_root red
+fish_color_end C25017
+fish_color_error E70A0A
+fish_color_escape 2E8166
+fish_color_history_current --bold
+fish_color_host --reset
+fish_color_host_remote yellow
+# fish_color_keyword $fish_color_command
+fish_color_operator BA5700
+# fish_color_option $fish_color_param
+fish_color_param 50575E
+fish_color_quote 5E7D00
+fish_color_redirection 8D5BC0
+fish_color_search_match --background=FFCC80 --bold
+fish_color_selection --background=FFCC80 --bold
+fish_color_status red
+fish_color_user brgreen
+fish_color_valid_path --underline
+fish_pager_color_completion --reset
+fish_pager_color_description 837244 yellow
+fish_pager_color_prefix --bold --underline
+fish_pager_color_progress brwhite --background=cyan --bold
+fish_pager_color_selected_background --background=FFCC80
+
+[dark]
+# preferred_background: 0A0E14
+fish_color_normal B3B1AD
+fish_color_command 39BAE6
+fish_color_quote C2D94C
+fish_color_redirection FFEE99
+fish_color_end F29668
+fish_color_error FF3333
+fish_color_param B3B1AD
+fish_color_comment 626A73
+fish_color_selection --background=E6B450 --bold
+fish_color_search_match --background=E6B450 --bold
+fish_color_history_current --bold
+fish_color_operator E6B450
+fish_color_escape 95E6CB
+fish_color_cwd 59C2FF
+fish_color_cwd_root red
+fish_color_valid_path --underline
+fish_color_autosuggestion 4D5566
+fish_color_user brgreen
+fish_color_host --reset
+fish_color_cancel -r
+fish_pager_color_completion --reset
+fish_pager_color_description B3A06D yellow
+fish_pager_color_prefix --bold --underline
+fish_pager_color_progress brwhite --background=cyan --bold
+fish_pager_color_selected_background --background=E6B450
+# fish_color_option $fish_color_param
+# fish_color_keyword $fish_color_command
+fish_color_host_remote yellow
+fish_color_status red

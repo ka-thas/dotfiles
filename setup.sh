@@ -23,4 +23,9 @@ ln -sf "$DOTFILES_DIR/.config/raycast" "$HOME/.config/raycast"
 mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
 ln -sf "$DOTFILES_DIR/.ssh/config" "$HOME/.ssh/config"
 
+# Symlink just the Claude Code config files (the rest of ~/.claude is history and state)
+mkdir -p "$HOME/.claude"
+ln -sf "$DOTFILES_DIR/.claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
+ln -sf "$DOTFILES_DIR/.claude/settings.json" "$HOME/.claude/settings.json"
+
 echo "Dotfiles linked successfully!"
