@@ -11,3 +11,4 @@ eval "$(zoxide init bash)"
 #
 # Make an alias for invoking commands you use constantly
 # alias p='python'
+. "$HOME/.cargo/env"
