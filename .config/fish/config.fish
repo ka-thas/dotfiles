@@ -49,5 +49,20 @@ abbr -a a         'claude'
 # opencode
 fish_add_path $HOME/.opencode/bin
 
+# ── git prompt ────────────────────────────────────────────────
+# (main ↑1↓2 +1*2%3): ↑ ahead, ↓ behind, + staged, * changed, % untracked
+set -g __fish_git_prompt_show_informative_status yes
+set -g __fish_git_prompt_showuntrackedfiles yes
+set -g __fish_git_prompt_showupstream informative
+set -g __fish_git_prompt_char_stateseparator ' '
+set -g __fish_git_prompt_char_stagedstate '+'
+set -g __fish_git_prompt_char_dirtystate '*'
+set -g __fish_git_prompt_char_untrackedfiles '%'
+set -g __fish_git_prompt_char_invalidstate '!'
+set -g __fish_git_prompt_char_cleanstate ''
+set -g __fish_git_prompt_char_upstream_ahead '↑'
+set -g __fish_git_prompt_char_upstream_behind '↓'
+set -g __fish_git_prompt_char_upstream_prefix ''
+
 # ── theme ─────────────────────────────────────────────────────
 fish_config theme choose ayu-contrast
